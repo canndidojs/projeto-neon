@@ -1,0 +1,37 @@
+.btn-primary {
+  color: #855b35;
+  background-color: $brand-yellow;
+  transition: background-color 0.4s;
+  &:hover {
+    background-color: #ffdc5c;
+  }
+}
+
+.btn-secondary {
+  transition: all 0.4s;
+  color: $brand-light-blue;
+  background-color: transparent;
+  border: 0.1rem solid $brand-light-blue;
+  &:hover {
+    background-color: $brand-light-blue;
+    color: #ffffff;
+  }
+  &.white {
+    border: 0.1rem solid white;
+    color: white;
+    &:hover {
+      background-color: white;
+      color: $brand-green-light;
+    }
+  }
+}
+
+.btn-primary,
+.btn-secondary {
+  font-weight: 600;
+  font-size: 1.6rem;
+  padding: 0 2.6rem;
+  line-height: 4.8rem;
+  display: inline-block;
+  border-radius: 12.2rem;
+}
